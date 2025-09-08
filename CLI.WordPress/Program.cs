@@ -18,7 +18,7 @@ namespace CLI.WordPress
                 Console.WriteLine("D. Delete a Blog Post");
                 Console.WriteLine("Q. Quit");
 
-                string? userChoice = Console.ReadLine();
+                var userChoice = Console.ReadLine();
 
                 switch (userChoice)
                 {
