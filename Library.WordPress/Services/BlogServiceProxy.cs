@@ -13,13 +13,18 @@ namespace Library.WordPress.Services
             blogPosts = new List<Blog?>();
         }
         private static BlogServiceProxy? instance;
+        private static object instanceLock = new object();
         public static BlogServiceProxy Current
         {
             get
             {
-                if(instance == null)
+                lock(instanceLock)
                 {
-                    instance = new BlogServiceProxy();
+                    if(instance == null)
+                    {
+                        instance = new BlogServiceProxy();
+                    }
+                    
                 }
                 return instance;
             }
