@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.WordPress", "CLI.WordPress\CLI.WordPress.csproj", "{FD718917-ABC3-4D73-8634-5925AACFC642}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.WordPress", "Library.WordPress\Library.WordPress.csproj", "{5872EB14-233E-447C-B4F4-F0984D3C6B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI.WordPress", "MAUI.WordPress\MAUI.WordPress.csproj", "{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{5872EB14-233E-447C-B4F4-F0984D3C6B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5872EB14-233E-447C-B4F4-F0984D3C6B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5872EB14-233E-447C-B4F4-F0984D3C6B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1148D27-C0DA-43F3-A9CA-4D12347FACDA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
